@@ -36,7 +36,7 @@ export default async function handler(req, res) {
 
     // Enviar email
     await resend.emails.send({
-      from: 'PanamáLanza <onboarding@resend.dev>',
+      from: 'PanamáLanza <hola@lanzapty.com>',
       to: emailLower,
       subject: `Tu código de acceso: ${code}`,
       html: `
